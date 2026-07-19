@@ -1,0 +1,13 @@
+"""
+A
+B
+C
+entradas sao necessariamente em ordem crescente
+"""
+A = int(input())
+B = int(input())
+C = int(input())
+
+if (B-A) < (C-B): print(1)
+elif (B-A) > (C-B): print(-1)
+else: print(0)
